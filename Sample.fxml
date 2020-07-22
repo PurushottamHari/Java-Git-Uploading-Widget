@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="185.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Button layoutX="46.0" layoutY="137.0" mnemonicParsing="false" onAction="#copyPasteFile" text="Add Code" textFill="#9a0c0c">
+         <font>
+            <Font name="Megrim" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#695858a6" height="9.08" radius="4.6375" width="11.47" />
+         </effect>
+      </Button>
+      <Button layoutX="189.0" layoutY="137.0" mnemonicParsing="false" onAction="#commitOnGit" text="Git Consistent" textFill="#9a0c0c">
+         <font>
+            <Font name="Megrim" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#695858a6" height="9.08" radius="4.6375" width="11.47" />
+         </effect>
+      </Button>
+      <ImageView fitHeight="83.0" fitWidth="200.0" layoutX="135.0" layoutY="25.0">
+         <image>
+            <Image url="@gitPhoto.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#ff1f1fc2" layoutX="29.0" layoutY="29.0" onMouseClicked="#exit" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+   <effect>
+      <InnerShadow choke="0.28" color="#000000d0" height="59.13" radius="29.065" width="59.13" />
+   </effect>
+</AnchorPane>
