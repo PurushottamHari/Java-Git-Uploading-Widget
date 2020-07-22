@@ -1,2 +1,2 @@
 # Java-Git-Uploading-Widget
-Widget to upload to git staright from desktop
+Widget to upload to GIT straight from desktop using Java FX.
